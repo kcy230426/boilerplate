@@ -1,0 +1,27 @@
+    /* 폰트는 유전받기 때문에 최상위 태그인 body에 기입한다. */
+
+body{
+    font-family: 'Anton', 'gm', sans-serif;
+    font-size: 1rem;
+    /* rem은 디바이스가 갖고 있는 기본 사이즈가 기준이다. (반응형) */
+    line-height: 2em;
+    /* line-height는 폰트를 기준으로 하기 때문에 단위(em)를 제외해도 괜찮다. */
+    /* line-height는 글자가 포함된 위 아래의 여백을 의미한다. */
+    /* 디자이너들은 1.4 ~1.85 사이를 선호한다. */
+    color: #222;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color:#222;
+    text-decoration: none;
+}
+
+li, dl, dt, dd, ul, ol {
+    list-style: none;
+}
+

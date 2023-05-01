@@ -1,0 +1,12 @@
+    /* 폰트는 import를 최상단에 기입 */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Darumadrop+One&display=swap');
+
+    /* 주소에서 물음표 전까지가 >소스파일< / 물음표 후가 >변수<를 의미 */
+
+@font-face {
+    font-family: 'gm';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
